@@ -22,12 +22,24 @@
                                     <constraint firstAttribute="height" constant="250" id="yW7-E1-t73"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Study English" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7N-TP-Tds">
+                                <rect key="frame" x="95" y="386" width="130" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="T4a-4Q-Uq5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="20"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="GwP-vl-psc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="IBT-9z-w3p"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GwP-vl-psc" secondAttribute="trailing" constant="35" id="Kqq-tZ-MfF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V7N-TP-Tds" secondAttribute="trailing" constant="95" id="n6a-Gf-dxv"/>
+                            <constraint firstItem="V7N-TP-Tds" firstAttribute="top" secondItem="GwP-vl-psc" secondAttribute="bottom" constant="15" id="qnN-HE-RhL"/>
+                            <constraint firstItem="V7N-TP-Tds" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="qu1-c6-PCZ"/>
                             <constraint firstItem="GwP-vl-psc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="121" id="s3M-Id-TX5"/>
                         </constraints>
                     </view>
@@ -41,6 +53,9 @@
         <image name="image" width="2000" height="2000"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

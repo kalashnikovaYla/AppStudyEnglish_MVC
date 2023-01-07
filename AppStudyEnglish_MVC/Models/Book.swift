@@ -17,7 +17,8 @@ struct Book {
 extension Book {
     
     static let arrayOfBooks = [
-        Book(name: "The New Yorker. December 20, 2021", resource: "The New Yorker. December 20, 2021")
+        Book(name: "The New Yorker. December 20, 2021", resource: "The New Yorker. December 20, 2021"),
+        Book(name: "List of books", resource: "List of books")
     
     ]
 }

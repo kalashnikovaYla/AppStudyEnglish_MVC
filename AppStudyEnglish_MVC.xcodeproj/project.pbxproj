@@ -23,6 +23,7 @@
 		18E1C6CC2969D8550064898E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1C6CB2969D8550064898E /* ResultViewController.swift */; };
 		18E1C6CE2969D8770064898E /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1C6CD2969D8770064898E /* BooksViewController.swift */; };
 		18E1C6D02969D8920064898E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1C6CF2969D8920064898E /* WebViewController.swift */; };
+		18E1C6D62969DEA00064898E /* List of books.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18E1C6D52969DEA00064898E /* List of books.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		18E1C6CB2969D8550064898E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		18E1C6CD2969D8770064898E /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		18E1C6CF2969D8920064898E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		18E1C6D52969DEA00064898E /* List of books.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "List of books.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				18E1C6A32969D4D90064898E /* SceneDelegate.swift */,
 				18E1C6B72969D5E70064898E /* .gitignore */,
 				18E1C6B52969D5750064898E /* The New Yorker. December 20, 2021.pdf */,
+				18E1C6D52969DEA00064898E /* List of books.pdf */,
 				18E1C6AA2969D4DD0064898E /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -223,6 +226,7 @@
 				18E1C6B62969D5750064898E /* The New Yorker. December 20, 2021.pdf in Resources */,
 				18E1C6AE2969D4DD0064898E /* LaunchScreen.storyboard in Resources */,
 				18E1C6AB2969D4DD0064898E /* Assets.xcassets in Resources */,
+				18E1C6D62969DEA00064898E /* List of books.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
