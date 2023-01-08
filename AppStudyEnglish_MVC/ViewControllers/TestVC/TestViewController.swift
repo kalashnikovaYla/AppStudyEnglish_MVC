@@ -163,9 +163,8 @@ final class TestViewController: UIViewController {
             
             let resultViewController = ResultViewController()
             resultViewController.countOfRightAnswer = countOfRightAnswer
-            
-            let navVC = UINavigationController(rootViewController: resultViewController)
-            present(navVC, animated: true)
+            resultViewController.navigationItem.largeTitleDisplayMode = .never
+            navigationController?.pushViewController(resultViewController, animated: true)
             
         }
         

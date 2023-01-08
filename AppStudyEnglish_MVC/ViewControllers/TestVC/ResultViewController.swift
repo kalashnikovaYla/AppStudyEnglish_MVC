@@ -50,23 +50,19 @@ final class ResultViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
         
-        NSLayoutConstraint.activate([
-            label.topAnchor.constraint(equalTo: view.topAnchor, constant: view.bounds.height/6),
-            label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-        ])
     }
     
     private func createConstraint() {
         
         NSLayoutConstraint.activate([
-            label.topAnchor.constraint(equalTo: view.topAnchor, constant: view.bounds.height/6),
+            label.topAnchor.constraint(equalTo: view.topAnchor, constant: view.bounds.height/4),
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         
     }
     
     @objc func dissmissVC() {
-        dismiss(animated: true)
+        navigationController?.popViewController(animated: true)
     }
 
 }

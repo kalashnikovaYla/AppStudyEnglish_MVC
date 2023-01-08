@@ -80,8 +80,8 @@ extension BooksViewController: UITableViewDelegate, UITableViewDataSource {
         
         let webViewController = WebViewController()
         webViewController.book = arrayOfBooks[indexPath.row]
-        let navVC = UINavigationController(rootViewController: webViewController)
-        present(navVC, animated: true)
+        webViewController.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.pushViewController(webViewController, animated: true)
     }
     
     

@@ -51,7 +51,7 @@ final class WebViewController: UIViewController {
     
     
     @objc func dissmissVC() {
-        dismiss(animated: true)
+        navigationController?.popViewController(animated: true)
     }
 
     
