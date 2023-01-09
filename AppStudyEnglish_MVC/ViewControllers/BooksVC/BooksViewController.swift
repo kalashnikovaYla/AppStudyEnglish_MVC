@@ -62,8 +62,12 @@ extension BooksViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
         var configuration = cell.defaultContentConfiguration()
         configuration.text = arrayOfBooks[indexPath.row].name
-        configuration.textProperties.font = UIFont.systemFont(ofSize: 19)
+        configuration.textProperties.font = UIFont.systemFont(ofSize: 17)
         configuration.textProperties.color = .darkGray
+        
+        if let image = UIImage(named: arrayOfBooks[indexPath.row].nameOfImage) {
+            configuration.image = image
+        }
         cell.contentConfiguration = configuration
         
         return cell
