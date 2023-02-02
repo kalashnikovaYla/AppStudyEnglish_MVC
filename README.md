@@ -2,11 +2,13 @@
 
 Приложение позволяет учить английские слова по карточкам, пройти тестирование на проверку выученного материала, читать учебники. 
 
-![2023-02-02 23 38 53](https://user-images.githubusercontent.com/118187754/216420900-b7679d04-2e7f-43a8-8c35-c5e8704609c2.jpg)
-![2023-02-02 23 39 08](https://user-images.githubusercontent.com/118187754/216420908-4370de73-f177-47b5-9ebc-4b72497c8690.jpg)
-![2023-02-02 23 39 15](https://user-images.githubusercontent.com/118187754/216420909-14cd1eb6-1672-4591-a5cd-88d480418182.jpg)
-![2023-02-02 23 39 22](https://user-images.githubusercontent.com/118187754/216420911-f2d3d310-9f16-43b5-8469-17bf3e356664.jpg)
-![2023-02-02 23 39 31](https://user-images.githubusercontent.com/118187754/216420914-de0a5d87-50b8-4c2f-b565-ff9b23a0e5db.jpg)
+<img width="353" alt="Снимок экрана 2023-02-03 в 00 04 42" src="https://user-images.githubusercontent.com/118187754/216425381-845934ba-db72-4689-9d0f-4ff45f4bceee.png">
+<img width="353" alt="Снимок экрана 2023-02-03 в 00 04 53" src="https://user-images.githubusercontent.com/118187754/216425380-d892aa83-9bfe-4ffb-821d-794f1be791d1.png">
+<img width="353" alt="Снимок экрана 2023-02-03 в 00 05 20" src="https://user-images.githubusercontent.com/118187754/216425365-68304887-b525-488c-87a6-2f2b0abff9e3.png">
+<img width="353" alt="Снимок экрана 2023-02-03 в 00 05 00" src="https://user-images.githubusercontent.com/118187754/216425375-fca620d0-3914-4071-9252-12f0e0331ec7.png">
+
+
+
 
 Технологии:
 - Swift 5, Xcode 14
