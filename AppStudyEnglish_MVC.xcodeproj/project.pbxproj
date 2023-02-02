@@ -103,6 +103,7 @@
 		18E1C6BA2969D6ED0064898E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18E1C6C52969D7E30064898E /* CardCollectionViewCell.swift */,
 				18E1C6AC2969D4DD0064898E /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -140,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				18E1C6C32969D7B30064898E /* CollectionViewController.swift */,
-				18E1C6C52969D7E30064898E /* CardCollectionViewCell.swift */,
 				18E1C6C72969D80B0064898E /* DetailViewController.swift */,
 			);
 			path = CardVC;
